@@ -6,8 +6,9 @@ set -euo pipefail
 # Where espanso currently keeps its config (default macOS path)
 ESPANSO_CONFIG_DIR="${HOME}/Library/Application Support/espanso"
 
-# Where your Git repo lives, replace with local path if needed!
-GIT_ESPANSO_DIR="${HOME}/Documents/code/espanso-config"
+# Where your Git repo lives (resolved dynamically from this script's location)
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+GIT_ESPANSO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 # -----------------------------------------------------------------------------
 

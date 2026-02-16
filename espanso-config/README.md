@@ -59,12 +59,12 @@ This setup uses a **symlink** so that espanso reads its config directly from thi
 
 1. **Clone this repository** wherever you like:
    ```bash
-   git clone https://github.com/Gauthierkk/espanso-config.git ~/Documents/code/espanso-config
+   git clone https://github.com/Gauthierkk/configs.git ~/Documents/code/configs
    ```
 
 2. **Run the fresh-install script** to create the symlink:
    ```bash
-   cd ~/Documents/code/espanso-config
+   cd ~/Documents/code/configs/espanso-config
    bash scripts/fresh-install.sh
    ```
 
@@ -78,7 +78,7 @@ This setup uses a **symlink** so that espanso reads its config directly from thi
    | | Path |
    |---|---|
    | **Espanso config** (macOS) | `~/Library/Application Support/espanso` |
-   | **Git repo** | `~/Documents/code/espanso-config` |
+   | **Git repo** | `~/Documents/code/configs/espanso-config` |
 
    Edit the variables at the top of `scripts/fresh-install.sh` if your paths differ.
 
@@ -94,7 +94,7 @@ If you prefer to set up the symlink yourself:
 
 2. Create the symlink:
    ```bash
-   ln -s ~/Documents/code/espanso-config ~/Library/Application\ Support/espanso
+   ln -s ~/Documents/code/configs/espanso-config ~/Library/Application\ Support/espanso
    ```
 
 3. Restart espanso:

@@ -10,8 +10,8 @@ A version-controlled [Starship](https://starship.rs/) prompt configuration with 
 ## 1. Clone & Run Setup
 
 ```sh
-git clone <this-repo-url> ~/Documents/code/starship-config
-cd ~/Documents/code/starship-config
+git clone https://github.com/Gauthierkk/configs.git ~/Documents/code/configs
+cd ~/Documents/code/configs/starship-config
 chmod +x setup.sh
 ./setup.sh
 ```
