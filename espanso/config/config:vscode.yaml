@@ -1,0 +1,27 @@
+# vscode.yml
+# App-specific Espanso config for Visual Studio Code
+
+# Apply only when the active application is VS Code
+filter_exec: "isual Studio Code.app"   # On macOS this might need "Visual Studio Code.app"
+# Alternatively:
+# filter_title: "Visual Studio Code"
+
+config:
+  # Wait 50 ms before pasting expansion to avoid doubled characters (activatetivate bug)
+  pre_paste_delay: 50
+
+  # Use clipboard-based paste method instead of simulated keypresses
+  backend: clipboard
+
+  # Optionally disable clipboard clearing for smoother multi-line pastes
+  clipboard_clear_after: 0
+
+  # Prevent recursive expansion issues
+  enable: true
+  keyboard_layout: auto
+
+# Matches are inherited from your global configuration (match/base.yml),
+# so you don’t need to redefine your snippets here.
+# However, you can disable problematic triggers if desired, e.g.
+extra_includes:
+  - "../match/base.yml"
