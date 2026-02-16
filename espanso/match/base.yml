@@ -18,6 +18,13 @@ matches:
   - trigger: ":email"
     replace: "gauthier.kelly@artefact.com"
 
+  # Homebrew
+  - trigger: ":brewup"
+    replace: "brew update && brew upgrade"
+
+  - trigger: ":brewdump"
+    replace: "brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force"
+
   #Code
 
   - trigger: ":venv"
