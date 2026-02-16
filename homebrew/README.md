@@ -27,7 +27,7 @@ The script installs Homebrew if missing, then syncs with the Brewfile — instal
 After installing or removing packages, regenerate the Brewfile from what's currently installed:
 
 ```sh
-brew bundle dump --file=Brewfile --force
+brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force
 ```
 
 Or edit the Brewfile by hand to keep it curated.
