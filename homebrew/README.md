@@ -1,19 +1,30 @@
-# Homebrew Config
+# Homebrew
 
 A version-controlled [Brewfile](https://github.com/Homebrew/homebrew-bundle) listing all Homebrew packages and casks I use.
 
+## What's Included
+
+The `Brewfile` tracks CLI tools (`gh`, `starship`, `uv`) and casks (`espanso`, `claude-code`, `font-fira-code-nerd-font`, `gemini`).
+
 ## Setup
 
+### Prerequisites
+
+- macOS with [Homebrew](https://brew.sh/)
+
+### Installation
+
 ```sh
+cd ~/Documents/code/configs/homebrew
 chmod +x setup.sh
 ./setup.sh
 ```
 
-This installs Homebrew (if needed) and runs `brew bundle` against the Brewfile.
+The script installs Homebrew if missing, then syncs with the Brewfile — installing anything missing and removing anything not listed (`brew bundle --cleanup`).
 
-## Updating the Brewfile
+## Customization
 
-After installing or removing packages, regenerate from what's currently installed:
+After installing or removing packages, regenerate the Brewfile from what's currently installed:
 
 ```sh
 brew bundle dump --file=Brewfile --force

@@ -10,7 +10,7 @@ if ! command -v brew &>/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-echo "Installing packages from Brewfile..."
-brew bundle --file="${BREWFILE}"
+echo "Syncing Homebrew with Brewfile (install missing, remove unlisted)..."
+brew bundle --file="${BREWFILE}" --cleanup
 
 echo "Done."
