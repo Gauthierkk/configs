@@ -23,7 +23,7 @@ matches:
     replace: "brew update && brew upgrade"
 
   - trigger: ":brewdump"
-    replace: "brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force"
+    replace: "brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force --no-vscode"
 
   #Code
 
