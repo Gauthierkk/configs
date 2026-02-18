@@ -1,5 +1,4 @@
 tap "hashicorp/tap"
-tap "homebrew/services"
 brew "python@3.13"
 brew "awscli"
 brew "azure-cli"
