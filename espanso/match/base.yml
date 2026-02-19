@@ -18,6 +18,10 @@ matches:
   - trigger: ":email"
     replace: "gauthier.kelly@artefact.com"
 
+  # Raycast
+  - trigger: ":raycastdownload"
+    replace: "bash ~/.config/raycast/download.sh"
+
   # Homebrew
   - trigger: ":brewup"
     replace: "brew update && brew upgrade"

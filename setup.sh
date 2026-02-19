@@ -18,4 +18,9 @@ echo "--- Starship ---"
 bash "${SCRIPT_DIR}/starship/setup.sh"
 
 echo ""
+echo "--- Zsh ---"
+cp "${SCRIPT_DIR}/.zshrc" "${HOME}/.zshrc"
+echo "Copied .zshrc to ${HOME}/.zshrc"
+
+echo ""
 echo "=== All configs installed ==="
