@@ -9,6 +9,7 @@
 # it gets replaced by the "replace" string.
 matches:
   # Simple text replacement
+
   - trigger: ":espanso"
     replace: "Hi there!"
 
@@ -16,9 +17,16 @@ matches:
     replace: "http://localhost"
 
   - trigger: ":email"
-    replace: "gauthier.kelly@artefact.com"
+    replace: "gauthierkk@gmail.com"
+
+  - trigger: ":github"
+    replace: "https://github.com/Gauthierkk"
+
+  - trigger: ":linkedin"
+    replace: "https://www.linkedin.com/in/gauthier-kelly-700872170/"
 
   # Raycast
+
   - trigger: ":raycastdownload"
     replace: "bash ~/.config/raycast/download.sh"
 
@@ -27,8 +35,10 @@ matches:
     replace: "bash ~/.config/espanso/scripts/claudesync.sh"
 
   # Homebrew
+
   - trigger: ":brewup"
     replace: "brew update && brew upgrade"
+
 
   - trigger: ":brewdump"
     replace: "brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force --no-vscode"
