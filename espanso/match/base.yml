@@ -41,7 +41,7 @@ matches:
 
 
   - trigger: ":brewdump"
-    replace: "brew bundle dump --file=~/Documents/code/configs/homebrew/Brewfile --force --no-vscode"
+    replace: "brew bundle dump --file=~/.config/homebrew/Brewfile --force --no-vscode"
 
   #Code
 
