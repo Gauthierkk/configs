@@ -22,6 +22,10 @@ matches:
   - trigger: ":raycastdownload"
     replace: "bash ~/.config/raycast/download.sh"
 
+  # Claude
+  - trigger: ":claudesync"
+    replace: "bash ~/.config/espanso/scripts/claudesync.sh"
+
   # Homebrew
   - trigger: ":brewup"
     replace: "brew update && brew upgrade"

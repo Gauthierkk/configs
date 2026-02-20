@@ -23,4 +23,8 @@ cp "${SCRIPT_DIR}/.zshrc" "${HOME}/.zshrc"
 echo "Copied .zshrc to ${HOME}/.zshrc"
 
 echo ""
+echo "--- Claude Code ---"
+bash "${SCRIPT_DIR}/.claude/setup.sh"
+
+echo ""
 echo "=== All configs installed ==="

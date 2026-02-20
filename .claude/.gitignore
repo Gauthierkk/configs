@@ -1,0 +1,18 @@
+# Ephemeral / machine-specific — do not sync
+backups/
+cache/
+debug/
+file-history/
+history.jsonl
+ide/
+memory/
+projects/
+session-env/
+shell-snapshots/
+stats-cache.json
+todos/
+settings.json.bak
+
+# Plugin cache (config tracked separately)
+plugins/cache/
+plugins/install-counts-cache.json
