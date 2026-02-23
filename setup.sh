@@ -6,6 +6,10 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 echo "=== Setting up all configs ==="
 
 echo ""
+echo "--- Updating repo ---"
+git -C "${SCRIPT_DIR}" pull --ff-only
+
+echo ""
 echo "--- Homebrew ---"
 bash "${SCRIPT_DIR}/homebrew/setup.sh"
 
