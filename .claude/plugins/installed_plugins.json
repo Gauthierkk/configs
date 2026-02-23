@@ -4,10 +4,10 @@
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/gauthier.kelly/.claude/plugins/cache/claude-plugins-official/github/8deab8460a9d",
-        "version": "8deab8460a9d",
+        "installPath": "/Users/gauthier.kelly/.claude/plugins/cache/claude-plugins-official/github/aa296ec81e8c",
+        "version": "aa296ec81e8c",
         "installedAt": "2026-02-17T08:36:03.974Z",
-        "lastUpdated": "2026-02-19T12:49:44.218Z",
+        "lastUpdated": "2026-02-23T08:45:53.828Z",
         "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
       }
     ]

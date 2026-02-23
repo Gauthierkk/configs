@@ -1,18 +1,27 @@
-# Ephemeral / machine-specific — do not sync
+# Ephemeral / device-specific data
 backups/
 cache/
 debug/
 file-history/
-history.jsonl
 ide/
-memory/
+plans/
 projects/
 session-env/
 shell-snapshots/
 stats-cache.json
+tasks/
 todos/
-settings.json.bak
-
-# Plugin cache (config tracked separately)
+history.jsonl
+settings.local.json
+memory/
 plugins/cache/
 plugins/install-counts-cache.json
+
+# Keep syncable config
+!settings.json
+!CLAUDE.md
+!RTK.md
+!setup.sh
+!hooks/
+!plugins/
+!skills/

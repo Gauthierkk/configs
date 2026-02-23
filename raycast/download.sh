@@ -1,6 +1,6 @@
 #!/bin/bash
 # Export Raycast config and save to dotfiles repo
-set -e
+set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 RAYCONFIG="$SCRIPT_DIR/raycast-config.rayconfig"

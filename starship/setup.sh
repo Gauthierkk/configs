@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # Setup script to install starship, Nerd Font, and configure the shell
 
@@ -18,9 +19,9 @@ else
   brew install --cask font-fira-code-nerd-font
 fi
 
-REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ZSHRC="$HOME/.zshrc"
-CONFIG_LINE="export STARSHIP_CONFIG=\"$REPO_DIR/starship.toml\""
+CONFIG_LINE="export STARSHIP_CONFIG=\"$SCRIPT_DIR/starship.toml\""
 INIT_LINE='eval "$(starship init zsh)"'
 
 # Check if lines already exist in .zshrc
