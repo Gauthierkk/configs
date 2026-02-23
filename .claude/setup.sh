@@ -1,4 +1,5 @@
 #!/bin/bash
 set -euo pipefail
 # Ensure ~/.claude points to this repo's .claude config
-ln -sfn "$HOME/.config/.claude" "$HOME/.claude"
+rm -rf "$HOME/.claude"
+ln -s "$HOME/.config/.claude" "$HOME/.claude"
