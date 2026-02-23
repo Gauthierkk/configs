@@ -6,5 +6,5 @@ alias python=python3
 autoload -U compinit
 compinit
 
-# Starship
+# Starship init
 eval "$(starship init zsh)"
