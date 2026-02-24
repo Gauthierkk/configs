@@ -7,4 +7,5 @@ autoload -U compinit
 compinit
 
 # Starship init
+export STARSHIP_CONFIG="$HOME/.config/starship.toml"
 eval "$(starship init zsh)"

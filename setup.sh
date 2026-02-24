@@ -18,10 +18,6 @@ echo "--- Espanso ---"
 bash "${SCRIPT_DIR}/espanso/scripts/fresh-install.sh"
 
 echo ""
-echo "--- Starship ---"
-bash "${SCRIPT_DIR}/starship/setup.sh"
-
-echo ""
 echo "--- Zsh ---"
 cp "${SCRIPT_DIR}/.zshrc" "${HOME}/.zshrc"
 echo "Copied .zshrc to ${HOME}/.zshrc"
