@@ -1,7 +1,4 @@
 {
-  "enabledPlugins": {
-    "github@claude-plugins-official": true
-  },
   "model": "sonnet",
   "hooks": {
     "PreToolUse": [
@@ -15,5 +12,9 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "github@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
   }
 }

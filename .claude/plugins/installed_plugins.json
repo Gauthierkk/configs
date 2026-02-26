@@ -4,11 +4,21 @@
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/gauthier.kelly/.claude/plugins/cache/claude-plugins-official/github/99e11d959269",
-        "version": "99e11d959269",
+        "installPath": "/Users/gauthier.kelly/.claude/plugins/cache/claude-plugins-official/github/55b58ec6e564",
+        "version": "55b58ec6e564",
         "installedAt": "2026-02-17T08:36:03.974Z",
-        "lastUpdated": "2026-02-24T09:41:37.343Z",
+        "lastUpdated": "2026-02-26T13:25:37.318Z",
         "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/gauthier.kelly/.claude/plugins/cache/claude-plugins-official/skill-creator/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-02-26T13:33:51.304Z",
+        "lastUpdated": "2026-02-26T13:33:51.304Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
       }
     ]
   }
