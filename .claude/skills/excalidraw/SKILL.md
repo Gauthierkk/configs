@@ -1,4 +1,5 @@
 ---
+name: excalidraw
 description: Create and edit Excalidraw diagrams — generate, modify, and clean .excalidraw files
 allowed-tools: [Read, Write, Edit, Bash, Glob]
 ---
