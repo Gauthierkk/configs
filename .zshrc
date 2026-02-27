@@ -6,6 +6,6 @@ alias python=python3
 autoload -U compinit
 compinit
 
-# Starship init
-export STARSHIP_CONFIG="$HOME/.config/starship.toml"
+# Starship config path 
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
