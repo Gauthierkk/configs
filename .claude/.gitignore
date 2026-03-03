@@ -9,6 +9,10 @@ projects/
 session-env/
 shell-snapshots/
 stats-cache.json
+readout-cost-cache.json
+readout-pricing.json
+mcp-needs-auth-cache.json
+*.tmp
 tasks/
 todos/
 history.jsonl
@@ -16,6 +20,12 @@ settings.local.json
 memory/
 plugins/cache/
 plugins/install-counts-cache.json
+plugins/known_marketplaces.json
+plugins/marketplaces/
+plugins/.install-manifests/
+plugins/installed_plugins.json
+plugins/blocklist.json
+telemetry/
 
 # Keep syncable config
 !settings.json
