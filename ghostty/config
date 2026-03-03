@@ -39,4 +39,5 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = "JetBrains Mono"
+font-family = JetBrains Mono
+theme = TokyoNight Moon
