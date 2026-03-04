@@ -41,3 +41,8 @@
 
 font-family = JetBrains Mono
 theme = TokyoNight Moon
+
+# window padding
+window-padding-y = 0, 100
+window-padding-x = 30, 30
+
